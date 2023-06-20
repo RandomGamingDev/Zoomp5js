@@ -6,7 +6,7 @@ Simply create a new instance of the `Zoom` class and then apply zoom based on th
 Example of how to use `.zoom`:
 ```js
 function mouseWheel(event) {
-  zoom.zoom(Vec.fromList([mouseX, mouseY]).vecSub(Vec.fromList([width, height]).divNum(2)), event.delta / 1000);
+  zoom.zoom(Vec.fromList([width, height]).divNum(2).subVec(Vec.fromList([mouseX, mouseY])), event.delta / 1000);
 }
 ```
 
