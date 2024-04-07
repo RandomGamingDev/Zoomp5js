@@ -1,6 +1,8 @@
 # Zoomp5js
 A simple library for adding the zooming functionality to your p5.js project.
 
+<img src="Zoomp5js.png" width="512" />
+
 Simply create a new instance of the `Zoom` class and then apply zoom based on the location you want to zoom towards and its zoom level with the `.zoom` function. In order to apply the effects simply use `.apply`, but remember, that it will zoom using math that's heavily based upon the location of (0, 0), so unless you're going for it (no clue why you'd be doing that) I recommend that you translate it so that (0, 0) is in the center of the screen when apply the effects, or if you're in WebGL mode where that's the default, to leave it that way.
 
 Example of how to use `.zoom`:
