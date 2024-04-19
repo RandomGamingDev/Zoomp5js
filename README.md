@@ -12,6 +12,8 @@ function mouseWheel(event) {
 }
 ```
 
+An example of how to use it is accessible at https://github.com/RandomGamingDev/Zoomp5js/tree/main/example and its result can be seen [here](https://randomgamingdev.github.io/Zoomp5js/example)
+
 This library depends on the Vector implementation from https://github.com/RandomGamingDev/VecJs. To use it you can simply include https://cdn.jsdelivr.net/gh/RandomGamingDev/VecJs/vec.js in your HTML file! If you want to you can also just download the file and include it in your HTML file that way.
 
 To use this library you can simply include https://cdn.jsdelivr.net/gh/RandomGamingDev/Zoomp5js/zoom.js in your HTML file! If you want to you can also just download the file and include it in your HTML file that way.
